@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Cyberverse';
+    src: url("Cyberverse.otf") format("opentype");
+}
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    font-family: 'Cyberverse';
+}
+
+.content {
+    display: flex;
+    background-color: #1A1A1A;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 500px;
+}
+
+.timer {
+    font-size: 92px;
+    color: white;
+}
+
+.over {
+    color: crimson;
+} 
